@@ -10,9 +10,9 @@ class Bot(Client):
     def __init__(self):
         super().__init__(
             "techvj login",
-            api_id=API_ID,
-            api_hash=API_HASH,
-            bot_token=BOT_TOKEN,
+            api_id=29435108,
+            api_hash=2d211eb63606dae1bcb413d57391b2de,
+            bot_token=8385471447:AAFDC4_o8tZ2RHXPfZXTeZGkyzEd5kixMCs,
             plugins=dict(root="TechVJ"),
             workers=50,
             sleep_threshold=10
